@@ -5,6 +5,13 @@
         <members>Opportunity.Type__c</members>
 		<name>CustomField</name>
 	</types>
-
+    <types>
+		<members>Scenario1</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>Scenario1</members>
+		<name>ApexTrigger</name>
+	</types>
     <version>62.0</version>
 </Package>
