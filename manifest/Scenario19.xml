@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <types>
+		<members>Scenario19</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>Scenario19</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Product__c.Flat_Discount__c</members>
+		<members>Product__c.Offer_Available__c</members>
+		<members>Product__c.Offer_Price__c</members>
+		<members>Product__c.Offer_Type__c</members>
+		<members>Product__c.Original_Price__c</members>
+		<members>Product__c.Percentage_Discount__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Product__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Product__c-en_US</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+    <version>62.0</version>
+</Package>
