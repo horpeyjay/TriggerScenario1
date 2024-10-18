@@ -9,7 +9,7 @@ public with sharing class Scenario11 {
                 }
             }
         }
-        List<Account> accDetails = [Select Id, Description From account where Id in :accIds];
+        List<Account> accDetails = [Select Id, Description, Name From account where Id in :accIds];
         Map<Id, Decimal> oppAmountMap = new Map<Id, Decimal>();
         List<Account> accToUpdate = new List<Account>();
         List<Opportunity> oppsToInsert = new List<Opportunity>();
