@@ -25,6 +25,7 @@
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
+<<<<<<< HEAD
 		<members>Candidate_Skill__c</members>
 		<members>Candidate__c</members>
 		<members>Skills__c</members>
@@ -35,6 +36,8 @@
 		<name>CustomObjectTranslation</name>
 	</types>
 	<types>
+=======
+>>>>>>> scenario19
 		<members>*</members>
 		<name>LightningComponentBundle</name>
 	</types>
