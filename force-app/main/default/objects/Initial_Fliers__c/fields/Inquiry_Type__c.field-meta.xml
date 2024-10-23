@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Inquiry Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cancel Flight</fullName>
+                <default>false</default>
+                <label>Cancel Flight</label>
+            </value>
+            <value>
+                <fullName>Flight Deal</fullName>
+                <default>false</default>
+                <label>Flight Deal</label>
+            </value>
+            <value>
+                <fullName>Flight Status</fullName>
+                <default>false</default>
+                <label>Flight Status</label>
+            </value>
+            <value>
+                <fullName>New Flight</fullName>
+                <default>false</default>
+                <label>New Flight</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

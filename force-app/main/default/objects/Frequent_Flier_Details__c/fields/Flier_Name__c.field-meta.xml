@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flier_Name__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Flier Name</label>
+    <referenceTo>Flier__c</referenceTo>
+    <relationshipLabel>Frequent Flier Details</relationshipLabel>
+    <relationshipName>Frequent_Flier_Details</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

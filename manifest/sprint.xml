@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-   <types>
+   <!--<types>
 		<members>DeleteUser</members>
 		<members>DeleteUserTest</members>
 		<members>DeleteUserSchedulable</members>
@@ -9,6 +9,23 @@
 	<types>
 		<members>Delete_User_From_Public_Group</members>
 		<name>Flow</name>
+	</types>-->
+
+	<types>
+		<members>Delta_Flier_App</members>
+		<name>CustomApplication</name>
+	</types>
+		
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>ParentFlier__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>ParentFlier__c-en_US</members>
+		<name>CustomObjectTranslation</name>
 	</types>
     <version>62.0</version>
 </Package>
+

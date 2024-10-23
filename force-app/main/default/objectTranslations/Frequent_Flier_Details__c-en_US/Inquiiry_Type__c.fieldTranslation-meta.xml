@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Inquiiry Type --></label>
+    <name>Inquiiry_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cancel Flight</masterLabel>
+        <translation><!-- Cancel Flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Deal</masterLabel>
+        <translation><!-- Flight Deal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Status</masterLabel>
+        <translation><!-- Flight Status --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Flight</masterLabel>
+        <translation><!-- New Flight --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

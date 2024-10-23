@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Record_Creation__c</columns>
+    <columns>Frequent_Flier_Number__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>Join_Date__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Inquiry_Type__c</columns>
+    <columns>Most_Recent_Flight__c</columns>
+    <columns>Lounge_Used__c</columns>
+    <columns>Departing_Airport__c</columns>
+    <columns>Arrival_Airport__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>
