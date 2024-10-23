@@ -97,7 +97,7 @@ public with sharing class TestClasses {
         system.debug('The time instance in GMT is ' + dateTimeInGMT);
 
         //method 4: Datetime.valueOf() - Converts a string into a Datetime object
-        String dateString = '2024/10/23 15:08:52';
+        String dateString = '2024-10-23 15:08:52';
         Datetime dateStringInDatetime = Datetime.valueOf(dateString);
         system.debug('The date string is ' + dateStringInDatetime);
 
