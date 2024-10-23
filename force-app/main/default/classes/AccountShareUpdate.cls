@@ -43,6 +43,10 @@ public with sharing class AccountShareUpdate {
 
             Map<Id, AccountShare> existingShareMap = new Map<Id, AccountShare>();
 
+            for(AccountShare accShare : existingShare){
+                existingShareMap.put(accShare.AccountId, accShare);
+            }
+
             for(Id accId : accIds){
                 Account oldAcc = accOldMap.get(accId);
                 Account newAcc = accNewMap.get(accId);
