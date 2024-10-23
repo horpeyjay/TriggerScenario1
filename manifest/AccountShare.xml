@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <types>
+		<members>AccountShareUpdate</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>AccountShareUpdate</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Account.Secondary_Owner__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Opportunity</members>
+		<name>SharingRules</name>
+	</types>
+
+    <version>62.0</version>
+</Package>
