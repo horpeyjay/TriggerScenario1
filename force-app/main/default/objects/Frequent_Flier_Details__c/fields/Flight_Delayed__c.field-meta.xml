@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Flight_Delayed__c</fullName>
     <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
     <label>Flight Delayed?</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -160,7 +160,17 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Initial Fliers</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Record_Creation__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Frequent_Flier_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>First_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Join_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Last_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Inquiry_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Most_Recent_Flight__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Lounge_Used__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Departing_Airport__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

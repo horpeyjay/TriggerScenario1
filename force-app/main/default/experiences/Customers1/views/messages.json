@@ -1,0 +1,23 @@
+{
+  "appPageId" : "5995e704-d29c-497b-b845-55110b5769d4",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "22899139-78fa-416b-a6c4-47d3abf66c4a",
+  "label" : "Messages",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "forceChatter:messages",
+      "id" : "e610cef5-460d-476d-9ebe-6ccc92b9f45b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d87533b4-dccb-433a-a97c-e0c55a3a0efa",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "messages"
+}

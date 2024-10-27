@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>DeltaLogo</members>
+		<members>airplane_seatjpeg</members>
+		<members>airplane_seatjpeg1</members>
+		<members>baggagejpeg</members>
+		<members>baggagejpeg1</members>
+		<members>baggagejpeg2</members>
+		<members>baggagejpeg3</members>
+		<members>delta_background</members>
+		<members>delta_logo</members>
+		<members>delta_logojpeg</members>
+		<members>delta_logojpeg1</members>
+		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>Customers</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>Customers1</members>
+		<name>ExperienceBundle</name>
+	</types>
+	<types>
+		<members>cms_image</members>
+		<name>ManagedContentType</name>
+	</types>
+	<types>
+		<members>Customers1</members>
+		<name>SiteDotCom</name>
+	</types>
+	<version>60.0</version>
+</Package>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<!--<types>
-		<members>Delta_Flier_App</members>
-		<name>CustomApplication</name>
+	<types>
+		<members>*</members>
+		<name>DataCategoryGroup</name>
 	</types>
-	
 	<types>
-		<members>Initial_Fliers__c-en_US</members>
-		<name>CustomObjectTranslation</name>
-	</types>-->
-	<types>
-		<members>Flier__c.Flier_Number__c</members>
-		<name>CustomField</name>
+		<members>Admin</members>
+		<members>Custom%3A Marketing Profile</members>
+		<members>Custom%3A Sales Profile</members>
+		<members>Custom%3A Support Profile</members>
+		<name>Profile</name>
 	</types>
 	<version>60.0</version>
 </Package>
