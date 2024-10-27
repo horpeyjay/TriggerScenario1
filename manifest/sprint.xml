@@ -5,6 +5,10 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
+		<members>InsertRecords</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
 		<members>DeltaLogo</members>
 		<name>ContentAsset</name>
 	</types>
