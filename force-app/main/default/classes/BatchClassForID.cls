@@ -1,6 +1,6 @@
 public with sharing class BatchClassForID implements Database.Batchable<SObject> {
     public Database.QueryLocator start(Database.BatchableContext bc) {
-        return Database.getQueryLocator('SELECT Id, First_Name__c, Last_Name__c, Flier_Number__c, Join_Date__c FROM Flight_Upcoming__c WHERE Flier_Number__c = null');
+        return Database.getQueryLocator('SELECT Id, First_Name__c, Last_Name__c, Frequent_Flier_Number__c, Join_Date__c FROM Flight_Upcoming__c WHERE Flier__c = null');
     }
 
     public void execute(Database.BatchableContext bc, List<Flight_Upcoming__c> scope) {
