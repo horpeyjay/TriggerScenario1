@@ -51,3 +51,11 @@ public with sharing class BatchClassForID implements Database.Batchable<SObject>
         Messaging.sendEmail(new Messaging.SingleEmailMessage[] { mail });
     }
 }
+
+/* Call this code in anonymous apex 
+
+BatchClassForID batch = new BatchClassForID();
+Integer batchSize = 200; // Optional, set batch size (default is 200)
+Database.executeBatch(batch, batchSize);
+
+*/
