@@ -1,156 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>Delta_Flier_App</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
+    
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Flier__c</field>
+        <field>Flight_Upcoming__c.Arrival_City__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.Flight_Case__c</field>
+        <field>Flight_Upcoming__c.Arrival_Time_Zone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Flier__c.Last_Name__c</field>
+        <field>Flight_Upcoming__c.Arrival_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Additional_Snack__c</field>
+        <field>Flight_Upcoming__c.Car_Rental_Addon_Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Arrival_Airport__c</field>
+        <field>Flight_Upcoming__c.Car_Rental_Addon__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Checked_Bags__c</field>
+        <field>Flight_Upcoming__c.Cost__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Departing_Airport__c</field>
+        <field>Flight_Upcoming__c.Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Flier_Name__c</field>
+        <field>Flight_Upcoming__c.Departing_City__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Flight_Delayed__c</field>
+        <field>Flight_Upcoming__c.Departure_Time_Zone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Inquiry_Type__c</field>
+        <field>Flight_Upcoming__c.Departure_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Lounge_Used__c</field>
+        <field>Flight_Upcoming__c.First_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Planned_Snack__c</field>
+        <field>Flight_Upcoming__c.Flight_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Frequent_Flier_Details__c.Total_Checked_Bags__c</field>
+        <field>Flight_Upcoming__c.Flight_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Initial_Fliers__c.Additional_Snack__c</field>
+        <field>Flight_Upcoming__c.Frequent_Flier_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Initial_Fliers__c.Departing_Airport__c</field>
+        <field>Flight_Upcoming__c.Hotel_Addon_Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Initial_Fliers__c.Flight_Delayed__c</field>
+        <field>Flight_Upcoming__c.Hotel_Addon__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Initial_Fliers__c.Lounge_Used__c</field>
+        <field>Flight_Upcoming__c.Join_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Initial_Fliers__c.Planned_Snack__c</field>
+        <field>Flight_Upcoming__c.Last_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Initial_Fliers__c.Total_of_Checked_Bags__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>Flier__c-Flier Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Frequent_Flier_Details__c-Frequent Flier Detail Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Initial_Fliers__c-Initial Flier Layout</layout>
-    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Flier__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Frequent_Flier_Details__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Initial_Fliers__c</object>
+        <object>Flight_Upcoming__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Flier__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Frequent_Flier_Details__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Initial_Fliers__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Knowledge__kav</tab>
+        <tab>Flight_Upcoming__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
