@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+		<members>Hospital_Management</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Bed__c</members>
+		<members>Patient__c</members>
+		<members>Waiting_List__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Bed__c</members>
+		<members>Patient__c</members>
+		<members>Waiting_List__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>HospitalTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>PatientHandlerClass</members>
+		<name>ApexClass</name>
+	</types>
+    <version>62.0</version>
+</Package>
