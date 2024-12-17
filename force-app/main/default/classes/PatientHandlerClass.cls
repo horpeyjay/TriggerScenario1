@@ -61,4 +61,6 @@ public with sharing class PatientHandlerClass {
             update updatedPatients;
         }
     }
+
+    
 }
