@@ -33,4 +33,19 @@ public class AccountTriggerHandler {
             update contactsToUpdate;
         }
     }
+
+    Public static void preventAccUpdateIn1Hour(List<Account> newAccList, Map<Id, Account> oldAccountMap){
+        /**
+         * Author: Oni Opeyemi
+         */
+        if(!newAccList.isEmpty()){
+            for(Account acc : newAccList){
+                Account oldAcc = oldAccountMap.get(acc.Id);
+                if(oldAcc != null && oldAcc.LastModifiedDate.addHours(1) > system.now()){
+                    acc.addError('you cannot update this account within 1 hour from the last modification');
+                }
+            }
+        }
+    }
+    
 }
